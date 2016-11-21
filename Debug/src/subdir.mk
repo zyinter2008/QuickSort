@@ -4,16 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/BubbleSort.cpp \
 ../src/QuickSort.cpp \
 ../src/QuickSortTest.cpp \
 ../src/main.cpp 
 
 OBJS += \
+./src/BubbleSort.o \
 ./src/QuickSort.o \
 ./src/QuickSortTest.o \
 ./src/main.o 
 
 CPP_DEPS += \
+./src/BubbleSort.d \
 ./src/QuickSort.d \
 ./src/QuickSortTest.d \
 ./src/main.d 
