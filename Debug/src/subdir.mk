@@ -7,18 +7,21 @@ CPP_SRCS += \
 ../src/BubbleSort.cpp \
 ../src/QuickSort.cpp \
 ../src/QuickSortTest.cpp \
+../src/SelectSort.cpp \
 ../src/main.cpp 
 
 OBJS += \
 ./src/BubbleSort.o \
 ./src/QuickSort.o \
 ./src/QuickSortTest.o \
+./src/SelectSort.o \
 ./src/main.o 
 
 CPP_DEPS += \
 ./src/BubbleSort.d \
 ./src/QuickSort.d \
 ./src/QuickSortTest.d \
+./src/SelectSort.d \
 ./src/main.d 
 
 
