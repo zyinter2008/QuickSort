@@ -9,6 +9,7 @@ CPP_SRCS += \
 ../src/QuickSort.cpp \
 ../src/QuickSortTest.cpp \
 ../src/SelectSort.cpp \
+../src/ShellSort.cpp \
 ../src/main.cpp 
 
 OBJS += \
@@ -17,6 +18,7 @@ OBJS += \
 ./src/QuickSort.o \
 ./src/QuickSortTest.o \
 ./src/SelectSort.o \
+./src/ShellSort.o \
 ./src/main.o 
 
 CPP_DEPS += \
@@ -25,6 +27,7 @@ CPP_DEPS += \
 ./src/QuickSort.d \
 ./src/QuickSortTest.d \
 ./src/SelectSort.d \
+./src/ShellSort.d \
 ./src/main.d 
 
 

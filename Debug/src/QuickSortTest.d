@@ -21,7 +21,8 @@ src/QuickSortTest.o: ../src/QuickSortTest.cpp \
   /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/QuickSort.h \
   /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/BubbleSort.h \
   /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/SelectSort.h \
-  /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/InsertSort.h
+  /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/InsertSort.h \
+  /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/ShellSort.h
 
 /Users/zyin/Desktop/CodeProjects/C++/QuickSort/gtest/include/gtest/gtest.h:
 
@@ -68,3 +69,5 @@ src/QuickSortTest.o: ../src/QuickSortTest.cpp \
 /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/SelectSort.h:
 
 /Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/InsertSort.h:
+
+/Users/zyin/Desktop/CodeProjects/C++/QuickSort/src/ShellSort.h:
