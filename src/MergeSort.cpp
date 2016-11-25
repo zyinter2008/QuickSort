@@ -7,7 +7,6 @@ void MergeSort::sort(int **array, int count) {
     	int sin =len;
     	len = 2*sin;
     	int i=0;
-
     	while(i+len < count){
     		mergeSort(array,&tempArray,i,i+sin-1,i+len-1);
     		i = i +len;
@@ -16,11 +15,14 @@ void MergeSort::sort(int **array, int count) {
     		mergeSort(array,&tempArray,i,i+sin-1,count-1);
     	}
 
-    	(*array) = tempArray;
-
     	for (int m = 0; m < count; m++) {
-    		cout << "tempArray[" << m << "]=" << temp[m] << endl;
+    		cout << "tempArray[" << m << "]=" << tempArray[m] << endl;
     	}
+	  
+	//(*array) = tempArray;
+	for (int m = 0; m < count; m++) {
+            (*array)[m] = tempArray[m];
+        }
     }
 	for (int m = 0; m < count; m++) {
 		cout << "array[" << m << "]=" << (*array)[m] << endl;
@@ -38,8 +40,8 @@ void MergeSort::mergeSort(int **array, int **tempArray, int begIndex, int firstE
 		}
 	}
 
-	if (i <= firstEndIndex)
+	while (i <= firstEndIndex)
 		(*tempArray)[k++] = (*array)[i++];
-	if (j <= finalEndIndex)
+	while (j <= finalEndIndex)
 		(*tempArray)[k++] = (*array)[j++];
 }
