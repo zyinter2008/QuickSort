@@ -15,7 +15,7 @@ void HeapSort::sort(int **array, int count) {
 }
 
 void HeapSort::buildHeap(int **array, int count) {
-	for (int i = (count - 1) / 2; i >= 0; i--) {
+	for (int i = (count - 2) / 2; i >= 0; i--) {
 		adjustHeap(array, i, count);
 	}
 }
