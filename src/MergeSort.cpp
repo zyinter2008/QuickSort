@@ -2,7 +2,7 @@
 
 void MergeSort::sort(int **array, int count) {
 	int len = 1;
-	int *tempArray = (int *) malloc(count * sizeof(int));
+	int *tempArray = new int[count];
 	while (len < count) {
 		int sin = len;
 		len = 2 * sin;
@@ -15,14 +15,15 @@ void MergeSort::sort(int **array, int count) {
 			mergeSort(array, &tempArray, i, i + sin - 1, count - 1);
 		}
 
-		for (int m = 0; m < count; m++) {
-			(*array)[m] = tempArray[m];
-		}
+		memcpy(*array, tempArray, count * sizeof(int));
+//		for (int m = 0; m < count; m++) {
+//			(*array)[m] = tempArray[m];
+//		}
 	}
 	for (int m = 0; m < count; m++) {
 		cout << "array[" << m << "]=" << (*array)[m] << endl;
 	}
-	free(tempArray);
+	delete[] tempArray;
 }
 
 void MergeSort::mergeSort(int **array, int **tempArray, int begIndex,
