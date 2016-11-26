@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/BubbleSort.cpp \
+../src/HeapSort.cpp \
 ../src/InsertSort.cpp \
 ../src/MergeSort.cpp \
 ../src/QuickSort.cpp \
@@ -15,6 +16,7 @@ CPP_SRCS += \
 
 OBJS += \
 ./src/BubbleSort.o \
+./src/HeapSort.o \
 ./src/InsertSort.o \
 ./src/MergeSort.o \
 ./src/QuickSort.o \
@@ -25,6 +27,7 @@ OBJS += \
 
 CPP_DEPS += \
 ./src/BubbleSort.d \
+./src/HeapSort.d \
 ./src/InsertSort.d \
 ./src/MergeSort.d \
 ./src/QuickSort.d \
