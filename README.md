@@ -1,3 +1,3 @@
 # QuickSort
 
-This is a method for quick sort of int array.
+This is a program for basic sort algorithms of int array.
