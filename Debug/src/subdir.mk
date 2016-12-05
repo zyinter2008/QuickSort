@@ -9,9 +9,9 @@ CPP_SRCS += \
 ../src/InsertSort.cpp \
 ../src/MergeSort.cpp \
 ../src/QuickSort.cpp \
-../src/QuickSortTest.cpp \
 ../src/SelectSort.cpp \
 ../src/ShellSort.cpp \
+../src/SortAlgorithmTest.cpp \
 ../src/main.cpp 
 
 OBJS += \
@@ -20,9 +20,9 @@ OBJS += \
 ./src/InsertSort.o \
 ./src/MergeSort.o \
 ./src/QuickSort.o \
-./src/QuickSortTest.o \
 ./src/SelectSort.o \
 ./src/ShellSort.o \
+./src/SortAlgorithmTest.o \
 ./src/main.o 
 
 CPP_DEPS += \
@@ -31,9 +31,9 @@ CPP_DEPS += \
 ./src/InsertSort.d \
 ./src/MergeSort.d \
 ./src/QuickSort.d \
-./src/QuickSortTest.d \
 ./src/SelectSort.d \
 ./src/ShellSort.d \
+./src/SortAlgorithmTest.d \
 ./src/main.d 
 
 
